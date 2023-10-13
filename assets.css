@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+input,button{
+    border: none;
+    outline: none;
+}
+.header{
+    background-color: #045693;
+    padding: 15px 30px;
+}
+
+.header-nav,.header-logo{
+    display: inline-block;
+    margin-right: 20px;
+    font-weight: 300;
+    opacity: 0.8;
+    cursor: pointer;
+}
+body{
+    min-height: 100vh;
+    background-color: #E4E8F0;
+}
+
+.header-logo img {
+    width: 70px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.header-logo i,.header-nav ul li{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.2px;
+   
+}
+.header-logo i{
+    padding: 8px 9px;
+    background-color: #296fa4;
+    border-radius: 50%;
+}
+
+.header-nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.header-nav,.header-logo:hover{
+    opacity: 1;
+}
+.banner{
+
+    padding-left: 30px;
+    height: 600px;
+    background-image: url(https://digitalhub.fifa.com/transform/2ad3545c-140f-436c-afe8-dd066f63719c/Enzo-Fernandez-Argentina?io=transform:fill,height:1024,width:1920&quality=75);
+    background-size: cover;
+}
+.banner-group{
+    padding-top: 500px;
+    color: #fff;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 1) ;
+}
+.banner-desc{
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.banner-group h3 {
+    margin: 10px 0;
+}
+/* banner */
+
+.tournament{
+    text-align: center;
+    padding: 50px 30px;
+    background-color: #296fa4;
+
+}
+.tournament-element{
+    display: inline-block;
+    text-align: left;
+    width: 20%;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.tournament-element:hover ,
+.Tournament-element img {
+    transform: scale(1.05);
+    
+}
+.tournament-element:not(:last-child){
+    margin-right: 40px;
+}
+.tournament-element img{
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+figcaption{
+    color: #fff;
+}
+/* tourament */
+.banner-store{
+    height: 800px;
+    background-image: url("https://digitalhub.fifa.com/transform/81be39fe-e184-484c-9254-75b6cb15655f/FPLS_FIFAStore_Banner_01?io=transform:fill,aspectratio:21x9,width:1536&quality=75");
+    background-position: center;
+    background-size: cover;
+
+}
+.banner-store-item{
+    width: 700px;
+    transform: translateX(30px);
+    padding-top: 18%;
+}
+.banner-store-item h2{
+    color: #fff;
+    text-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+}
+.banner-store-item p {
+    margin: 20px 0 ;
+    font-size: 22px;
+    color: #fff ;
+    text-align: justify;
+    line-height: 1.5;
+}
+.banner-store-item button{
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    background:none;
+    color: white;
+    font-weight: 400    ;
+    transition: 0.5s;
+
+}
+.banner-store-item button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: black;
+    background-color: white;
+}
+/* banner store */
+.store figure {
+    display: inline-block;
+    width: 15%;
+    text-align: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 10px;
+    transition: 0.5s;
+}
+
+.store figure img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.store figure figcaption {
+    margin-top: 15px;
+    color: #333;
+    display: -webkit-box;
+    line-height: 1.3;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.store figure:not(:last-child) {
+    margin-right: 10px;
+}
+.store figure:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.banner-store.banner-store2{
+    background-image: url(https://digitalhub.fifa.com/transform/6dbd41e4-2acb-4d70-a237-0e328e15bb2d/FIFAPLUS_Tournaments_ORIGINALS_1920x747?io=transform:fill,aspectratio:21x9,width:1536&quality=75);
+}
+/* store */
+.play-zone{
+padding: 30px;
+
+}
+.play-zone-item{
+    text-align: left;
+    background-image: url(https://digitalhub.fifa.com/transform/2ac28735-9298-4cb3-be1a-7037bd941038/FIFAPLS_PlayZone_Rail_TH_05_WHO-AM-I?io=transform:fill,aspectratio:16x9,width:768&quality=75);
+    width: 22%;
+    height: 200px;
+    background-position: center;
+    background-size:cover;
+    cursor: pointer;
+    border-radius: 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+.play-zone-item2{
+    background-image: url(https://digitalhub.fifa.com/transform/c8c34270-4630-4992-a478-d2d70cdddd0f/FIFAPLS_PlayZone_Rail_TH_02_FIVES?io=transform:fill,aspectratio:16x9,width:768&quality=75);
+    
+}
+.play-zone-item3{
+    background-image: url(https://digitalhub.fifa.com/transform/89d716b1-495a-4ab7-a64c-4bab013deb6d/FIFAPLS_PlayZone_Rail_TH_04-GLOBAL?io=transform:fill,aspectratio:16x9,width:768&quality=75);
+}
+.play-zone-item4{
+    background-image: url(https://digitalhub.fifa.com/transform/44917a28-1634-450e-8ab2-f2b3a731c035/FIFAPLS_PlayZone_Rail_TH_06_HEAD2HEAD?io=transform:fill,aspectratio:16x9,width:768&quality=75);
+}
+
+.play-zone-item:hover p{
+    transform: translateY(160px);
+
+}
+
+.play-zone-item:not(:last-child){
+    margin-right: 50px;
+}
+.play-zone-item p{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 10px;
+    transform: translateY(210px);
+    transition: 0.5s;
+}
+.banner-store.banner-store3{
+    background-image: url(https://digitalhub.fifa.com/transform/9bd32427-ee63-497a-a0ca-605379625544/FIFAPLS_Tournaments_FIFAPLSCollect_HeroMobile_01?io=transform:fill,aspectratio:3x4&quality=75);
+    background-size: cover;
+    background-repeat: none;
+}
+.footer{
+    background-color: #020f2a;
+    padding: 30px 0 ;
+    color: #fff;
+}
+.top-footer{
+    padding: 0 30px 30px;
+    border-bottom:1px solid #00b8ff;
+}
+.top-footer-logo,.top-footer-social,.top-footer-download{
+    display: inline-block;
+}
+.top-footer-social ul li{
+    display: inline-block;
+}
+.top-footer-download img{
+    width: 150px;
+    cursor: pointer;
+}
+.top-footer-download{
+    transform: translateX(155px);
+    vertical-align: top;
+}
+.top-footer-download p{
+    display: inline-block;
+
+}
+.top-footer-download img:first-child{
+    transform: translateY(190%);
+}
+.top-footer-logo{
+    width: 100px;
+    cursor: pointer;
+    margin-right: 200px;
+}
+.bottom-footer{
+    padding: 30px 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom-footer-info ul{
+    display: flex;
+    align-items: center;
+}
+.bottom-footer-info ul li{
+    margin-right: 15px;
+    cursor: pointer;
+}
